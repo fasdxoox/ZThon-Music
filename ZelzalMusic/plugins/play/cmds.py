@@ -1,6 +1,6 @@
 #▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒✯ ʑᴇʟᴢᴀʟ_ᴍᴜsɪᴄ ✯▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
-#▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒✯  T.me/ZThon   ✯▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
-#▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒✯ T.me/Zelzal_Music ✯▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+#▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒✯  T.me/K55DD   ✯▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+#▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒✯ T.me/K55DD ✯▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
 
 import asyncio
 import os
@@ -39,7 +39,7 @@ async def zdatsr(client: Client, message: Message):
                     InlineKeyboardButton(name, url=f"https://t.me/{usrnam}"),
                 ],[
                     InlineKeyboardButton(
-                        "•✯ ᴇʟɢᴀᴢᴀʀ_ᴍụѕɪᴄ ✯•", url="https://t.me/A_M_030"),
+                        "•✯ ᴇʟɢᴀᴢᴀʀ_ᴍụѕɪᴄ ✯•", url="T.me/K55DD"),
                 ],
             ]
         ),
@@ -64,7 +64,7 @@ reply_markup=InlineKeyboardMarkup(
             [            
               InlineKeyboardButton (name, url=f"https://t.me/{usrnam}"),
             ],[
-              InlineKeyboardButton("•✯ ᴇʟɢᴀᴢᴀʀ_ᴍụѕɪᴄ ✯•", url="https://t.me/A_M_030"),
+              InlineKeyboardButton("•✯ ᴇʟɢᴀᴢᴀʀ_ᴍụѕɪᴄ ✯•", url="T.me/K55DD"),
             ],
           ]
        )                 
