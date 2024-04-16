@@ -21,7 +21,7 @@ def track_markup(_, videoid, user_id, channel, fplay):
                 callback_data=f"MusicStream {videoid}|{user_id}|v|{channel}|{fplay}",
             ),
         ],
-        [InlineKeyboardButton(text=_["ZTHON_BUTTON"], url=f"https://t.me/A_M_030")],
+        [InlineKeyboardButton(text=_["ZTHON_BUTTON"], url=f"https://t.me/K55DD")],
         [
             InlineKeyboardButton(
                 text=_["CLOSE_BUTTON"],
@@ -71,7 +71,7 @@ def stream_markup_timer(_, chat_id, played, dur):
                 callback_data="GetTimer",
             )
         ],
-        [InlineKeyboardButton(text=_["ZTHON_BUTTON"], url=f"https://t.me/A_M_030")],
+        [InlineKeyboardButton(text=_["ZTHON_BUTTON"], url=f"https://t.me/K55DD")],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
     return buttons
@@ -86,7 +86,7 @@ def stream_markup(_, chat_id):
             InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
-        [InlineKeyboardButton(text=_["ZTHON_BUTTON"], url=f"https://t.me/A_M_030")],
+        [InlineKeyboardButton(text=_["ZTHON_BUTTON"], url=f"https://t.me/K55DD")],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
     return buttons
@@ -104,7 +104,7 @@ def playlist_markup(_, videoid, user_id, ptype, channel, fplay):
                 callback_data=f"ZelzalyPlaylists {videoid}|{user_id}|{ptype}|v|{channel}|{fplay}",
             ),
         ],
-        [InlineKeyboardButton(text=_["ZTHON_BUTTON"], url=f"https://t.me/A_M_030")],
+        [InlineKeyboardButton(text=_["ZTHON_BUTTON"], url=f"https://t.me/K55DD")],
         [
             InlineKeyboardButton(
                 text=_["CLOSE_BUTTON"],
@@ -123,7 +123,7 @@ def livestream_markup(_, videoid, user_id, mode, channel, fplay):
                 callback_data=f"LiveStream {videoid}|{user_id}|{mode}|{channel}|{fplay}",
             ),
         ],
-        [InlineKeyboardButton(text=_["ZTHON_BUTTON"], url=f"https://t.me/A_M_030")],
+        [InlineKeyboardButton(text=_["ZTHON_BUTTON"], url=f"https://t.me/K55DD")],
         [
             InlineKeyboardButton(
                 text=_["CLOSE_BUTTON"],
