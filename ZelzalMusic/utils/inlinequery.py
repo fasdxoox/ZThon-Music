@@ -11,37 +11,37 @@ answer.extend(
         InlineQueryResultArticle(
             title="ايقاف",
             description=f"ᴩᴀᴜsᴇ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴩʟᴀʏɪɴɢ sᴛʀᴇᴀᴍ ᴏɴ ᴠɪᴅᴇᴏᴄʜᴀᴛ.",
-            thumb_url="https://telegra.ph/file/c5952790fa8235f499749.jpg",
+            thumb_url="https://telegra.ph/file/4e4e5d9294df98ed1f233.jpg",
             input_message_content=InputTextMessageContent("قف"),
         ),
         InlineQueryResultArticle(
             title="إكمال",
             description=f"ʀᴇsᴜᴍᴇ ᴛʜᴇ ᴩᴀᴜsᴇᴅ sᴛʀᴇᴀᴍ ᴏɴ ᴠɪᴅᴇᴏᴄʜᴀᴛ.",
-            thumb_url="https://telegra.ph/file/c5952790fa8235f499749.jpg",
+            thumb_url="https://telegra.ph/file/4e4e5d9294df98ed1f233.jpg",
             input_message_content=InputTextMessageContent("كمل"),
         ),
         InlineQueryResultArticle(
             title="تخطي",
             description=f"sᴋɪᴩ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴩʟᴀʏɪɴɢ sᴛʀᴇᴀᴍ ᴏɴ ᴠɪᴅᴇᴏᴄʜᴀᴛ ᴀɴᴅ ᴍᴏᴠᴇs ᴛᴏ ᴛʜᴇ ɴᴇxᴛ sᴛʀᴇᴀᴍ.",
-            thumb_url="https://telegra.ph/file/c5952790fa8235f499749.jpg",
+            thumb_url="https://telegra.ph/file/4e4e5d9294df98ed1f233.jpg",
             input_message_content=InputTextMessageContent("تخطي"),
         ),
         InlineQueryResultArticle(
             title="انهاء",
             description="ᴇɴᴅ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴩʟᴀʏɪɴɢ sᴛʀᴇᴀᴍ ᴏɴ ᴠɪᴅᴇᴏᴄʜᴀᴛ.",
-            thumb_url="https://telegra.ph/file/c5952790fa8235f499749.jpg",
+            thumb_url="https://telegra.ph/file/4e4e5d9294df98ed1f233.jpg",
             input_message_content=InputTextMessageContent("انهاء"),
         ),
         InlineQueryResultArticle(
             title="Sʜᴜғғʟᴇ",
             description="sʜᴜғғʟᴇ ᴛʜᴇ ǫᴜᴇᴜᴇᴅ sᴏɴɢs ɪɴ ᴩʟᴀʏʟɪsᴛ.",
-            thumb_url="https://telegra.ph/file/c5952790fa8235f499749.jpg",
+            thumb_url="https://telegra.ph/file/4e4e5d9294df98ed1f233.jpg",
             input_message_content=InputTextMessageContent("/shuffle"),
         ),
         InlineQueryResultArticle(
             title="لوب",
             description="ʟᴏᴏᴩ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴩʟᴀʏɪɴɢ ᴛʀᴀᴄᴋ ᴏɴ ᴠɪᴅᴇᴏᴄʜᴀᴛ.",
-            thumb_url="https://telegra.ph/file/c5952790fa8235f499749.jpg",
+            thumb_url="https://telegra.ph/file/4e4e5d9294df98ed1f233.jpg",
             input_message_content=InputTextMessageContent("لوب 3"),
         ),
     ]
