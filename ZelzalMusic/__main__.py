@@ -44,7 +44,7 @@ async def init():
     await userbot.start()
     await Zelzaly.start()
     try:
-        await Zelzaly.stream_call("https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4")
+        await Zelzaly.stream_call("https://telegra.ph/file/4e4e5d9294df98ed1f233.jpg")
     except NoActiveGroupCall:
         LOGGER("ميـوزك لـول").info(
             "خطأ .. قم بفتح المكالمة في مجموعة السجل الخاصه بك\n\nجارِ ايقاف بوت الميوزك . . ."
