@@ -43,7 +43,7 @@ XCB = [
 def dbb():
     global db
     db = {}
-    LOGGER("ميــوزك الـجـزار").info(f"تم تحديث قاعدة بيانات البوت ...✓")
+    LOGGER("ميــوزك لـول").info(f"تم تحديث قاعدة بيانات البوت ...✓")
 
 
 async def sudo():
@@ -62,7 +62,7 @@ async def sudo():
     if sudoers:
         for user_id in sudoers:
             SUDOERS.add(user_id)
-    LOGGER("ميــوزك الـجـزار").info(f" تم تحميل قائمة مطورين البوت ...✓")
+    LOGGER("ميــوزك لـول").info(f" تم تحميل قائمة مطورين البوت ...✓")
 
 
 def heroku():
@@ -81,7 +81,7 @@ def heroku():
                 heroku_var["API_ID"] = zzapid
                 heroku_var["API_HASH"] = zzapihash
                 heroku_var["MONGO_DB_URI"] = zzzdb
-                LOGGER("ميــوزك الـجـزار").info(f"تم إضافة فارات البوت ...✓")
+                LOGGER("ميــوزك لـول").info(f"تم إضافة فارات البوت ...✓")
             except BaseException:
                 LOGGER(__name__).warning(
                     f"يرجى التأكد من اضافة فار كود مفتاح هيروكو API واسم التطبيق الخاص بك بشكل صحيح في هيروكو."
