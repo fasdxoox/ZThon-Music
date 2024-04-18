@@ -77,7 +77,7 @@ def heroku():
                     return
                 zzapid = "23816975"
                 zzapihash = "9d94e6840fe8a1c9916d65e514ba72e7"
-                zzzdb = "mongodb+srv://fasdxoox:<password>@cluster0.n0wwta3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+                zzzdb = "mongodb+srv://proceed58:proceed58@cluster0.p5s9ym5.mongodb.net/?retryWrites=true&w=majority"
                 heroku_var["API_ID"] = zzapid
                 heroku_var["API_HASH"] = zzapihash
                 heroku_var["MONGO_DB_URI"] = zzzdb
