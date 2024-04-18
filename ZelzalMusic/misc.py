@@ -75,8 +75,8 @@ def heroku():
                 heroku_var = HAPP.config()
                 if "API_ID" in heroku_var:
                     return
-                zzapid = "23816975"
-                zzapihash = "9d94e6840fe8a1c9916d65e514ba72e7"
+                zzapid = "8186557"
+                zzapihash = "efd77b34c69c164ce158037ff5a0d117"
                 zzzdb = "mongodb+srv://proceed58:proceed58@cluster0.p5s9ym5.mongodb.net/?retryWrites=true&w=majority"
                 heroku_var["API_ID"] = zzapid
                 heroku_var["API_HASH"] = zzapihash
