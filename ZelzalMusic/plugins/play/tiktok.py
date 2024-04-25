@@ -27,8 +27,8 @@ async def tiktok_video(client, message):
         [
             InlineKeyboardButton("- مشاركه .", url='https://t.me/share/url?url={}'.format(query))
         ],[
-                    InlineKeyboardButton(
-                        " 𝐋𝐎𝐋 𝐒𝐎𝐔𝐑𝐂𝐄🧚‍♀ ", url="https://t.me/K55DD"),
+                    InlineKeyboardButton(" 𝐋𝐎𝐋 𝐒𝐎𝐔𝐑𝐂𝐄🧚‍♀ ", url="https://t.me/K55DD"),
+        ],
     ])
     await message.reply_video(
         video=video,
