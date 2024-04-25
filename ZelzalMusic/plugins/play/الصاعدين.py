@@ -1,13 +1,13 @@
 from pyrogram import filters, Client
-from AarohiX import app
+from ZelzalMusic import app
 import asyncio
 import config
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from pyrogram.types import VideoChatEnded, Message
 from pytgcalls import PyTgCalls, StreamType
 from pytgcalls.types.input_stream import AudioPiped, AudioVideoPiped
-from AarohiX.core.call import Dil
-from AarohiX.utils.database import *
+from ZelzalMusic.core.call import Dil
+from ZelzalMusic.utils.database import *
 from pytgcalls.exceptions import (NoActiveGroupCall,TelegramServerError,AlreadyJoinedError)
 
 
