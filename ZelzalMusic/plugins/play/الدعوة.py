@@ -2,10 +2,10 @@
 from config import OWNER_ID
 import asyncio
 from pyrogram import Client, filters
-from AarohiX.utils.database import get_assistant
+from ZelzalMusic.utils.database import get_assistant
 from pyrogram.types import Message
-from AarohiX import (Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app)
-from AarohiX.core.call import Dil
+from ZelzalMusic import (Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app)
+from ZelzalMusic.core.call import Dil
 
 
 @app.on_message(filters.video_chat_started)
