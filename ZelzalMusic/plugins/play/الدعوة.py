@@ -5,7 +5,6 @@ from pyrogram import Client, filters
 from ZelzalMusic.utils.database import get_assistant
 from pyrogram.types import Message
 from ZelzalMusic import (Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app)
-from ZelzalMusic.core.call import Dil
 
 
 @app.on_message(filters.video_chat_started)
