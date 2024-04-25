@@ -11,6 +11,6 @@
 
       "MONGO_DB_URI": {
         "description": "لا تغيــرهـــا",
-        "value": "mongodb+srv://veez:mega@cluster0.heqnd.mongodb.net/veez?retryWrites=true&w=majority",
+        "value": "mongodb+srv://fasdxoox:0jhjlNShtc1tRGXx@cluster0.vvwrnrr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
         "required": true
       },
