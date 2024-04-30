@@ -38,7 +38,7 @@
         "required": false
       },
       "HEROKU_APP_NAME": {
-        "description": "اذا تريد ان يغادر الحساب المساعد بعد انتهاء المحادثه الصوتيه اكتب False ..",
+        "description": "اذا تريد ان يغادر الحساب المساعد بعد انتهاء المحادثه الصوتيه اكتب True ..",
         "value": "",
         "required": false
       },
