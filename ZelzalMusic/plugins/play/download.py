@@ -32,7 +32,7 @@ async def song_downloader(client, message: Message):
          keepvideo : True,
          prefer_ffmpeg : False,
          geo_bypass : True,
-         outtmpl :  %(title)s.%(ext)s ,
+         outtmpl :  %(title)s..%(ext)s ,
          quite : True,
     }
     try:
